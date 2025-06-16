@@ -303,7 +303,7 @@ def get_args():
 	parser.add_argument("--dev", type=str, default="data/cfimdb-dev.txt")
 	parser.add_argument("--test", type=str, default="data/cfimdb-test.txt")
 	parser.add_argument("--label-names", type=str, default="data/cfimdb-label-mapping.json")
-	parser.add_argument("--pretrained-model-path", type=str, default="stories42M.pt")
+	parser.add_argument("--pretrained-model-path", type=str, default="models/stories42M.pt")
 	parser.add_argument("--max_sentence_len", type=int, default=None)
 	parser.add_argument("--seed", type=int, default=1337)
 	parser.add_argument("--epochs", type=int, default=5)
