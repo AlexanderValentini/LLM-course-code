@@ -5,6 +5,8 @@ be filled in):
 
 https://github.com/neubig/minllama-assignment/tree/master
 
+That code is also available in the "CMU-MiniLlama-exercise-original" folder.
+
 Here the interesting parts for a DTU exercise could be to implement llama.py, especially parts of the Attention class (compute_query_key_value_scores function), Llamalayer class (forward function) and the generate function in the Llama function. Implementation of the RMSnorm class in llama.py and Adam optimizer in the optimizer.py could be interesting for 
 completeness - but can also be skipped for time. Rotary Positional Encoding in rope.py might be a bit more challenging to implement - so it can be an extra assignment - or you might implement normal positional encoding instead.
 
