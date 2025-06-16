@@ -63,13 +63,5 @@ Test Accuracy: -
 
 Mean reference accuracies over 10 random seeds with their standard deviation shown in brackets.
 
-### Submission
-
-**Code:**
-You will submit a full code package, with output files, on **Canvas**. This package will be checked by the TAs in the 1-2 weeks 
-   after the assignment for its correctness and executability.
-
-**Report (optional):** Your zip file can include a pdf file, named ANDREWID-report.pdf, if (1) you've implemented something else on top of the requirements and further improved accuracy for possible extra points (see "Grading" below), and/or (2) if your best results are with some hyperparameters other than the default, and you want to specify how we should run your code. If you're doing (1), we expect your report should be 1-2 pages, but no more than 3 pages. If you're doing (2), the report can be very brief.
-
 ### Acknowledgement
 This code is based on llama2.c by Andrej Karpathy. Parts of the code are also from the [`transformers`](https://github.com/huggingface/transformers) library ([Apache License 2.0](./LICENSE)).
