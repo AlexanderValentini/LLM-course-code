@@ -1,3 +1,21 @@
+## Alex description: 
+
+This is my solution for the MinLlama exercise by Neubig from CMU class "CS11-711 Advanced NLP". Link to original exercise (here you will find sections of the code missing - to 
+be filled in):
+
+https://github.com/neubig/minllama-assignment/tree/master
+
+Here the interesting parts for a DTU exercise could be to implement llama.py, especially parts of the Attention class (compute_query_key_value_scores function), Llamalayer class (forward function) and the generate function in the Llama function. Implementation of the RMSnorm class in llama.py and Adam optimizer in the optimizer.py could be interesting for 
+completeness - but can also be skipped for time. Rotary Positional Encoding in rope.py might be a bit more challenging to implement - so it can be an extra assignment - or you might implement normal positional encoding instead.
+
+Regardless you now have a model capable of generating output (for instance see "generated-sentence-temp-0.txt" and "generated-sentence-temp-0.txt"). 
+
+classifier.py is an interesting addition (here you do sentence sentiment analysis) - but it is not suitable for a single exercise session (Note the original exercise is a 2-week assignment in an 8-ECTS course). 
+
+Below is the original description of the exercise (describing the structure and necessary setup). Note that I have put the pre-trained weights for the model used in the exercise in the "models" folder. An alternative to this exercise could be to use the NanoGPT or GPT2 implementation by Karpathy and strip away some code.
+
+run_llama.py is the main script calling all the other scripts and takes various commands.
+
 # Min-Llama Assignment
 by Vijay Viswanathan (based on the previous [minbert-assignment](https://github.com/neubig/minbert-assignment))
 
