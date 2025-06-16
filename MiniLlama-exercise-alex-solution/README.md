@@ -18,6 +18,8 @@ Below is the original description of the exercise (describing the structure and 
 
 run_llama.py is the main script calling all the other scripts and takes various commands.
 
+Running generation (without additional fine-tuning) can be done without a GPU.
+
 # Min-Llama Assignment
 by Vijay Viswanathan (based on the previous [minbert-assignment](https://github.com/neubig/minbert-assignment))
 
