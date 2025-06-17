@@ -10,6 +10,10 @@ Some patches are necessary to make the code run. First I am using a PatchedInfer
 
 Also I am using the dotenv library to load my HF api token stored in a .env file. 
 
-![alt text](image.png)
+To get the tutorial to work, first you will need an account at Huggingface and create a new access token (under "Access Tokens"):
+
+![](image-1.png)
+
+![](image.png)
 
 It will probably not be possible to run at an exercise session, but is interesting as a proof of concept - although you would need another inference engine than the free Huggingface account. 
