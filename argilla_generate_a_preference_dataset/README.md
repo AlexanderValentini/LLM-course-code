@@ -35,6 +35,13 @@ Importantly you will need a Argilla API key as well. This is retrieved under you
 
 ![](image-4.png)
 
+At the bottom if you scroll down (you can copy it into your file):
 
+![](image-5.png)
 
-It will probably not be possible to run at an exercise session, but is interesting as a proof of concept - although you would need another inference engine than the free Huggingface account. 
+Note that after a period of inactivity your Argilla space will enter sleep mode and cannot be accessed by your code. Then you need to go to your HF account and click in your space again to start it. You can check from the logs that it is running.
+
+For some reason there is an error where the very last section of the code will run indefinitely (or at least they take a very long time). I couldn't find the error, but it might be something with the Argilla space and thee Huggingface server.  
+
+It will probably not be possible to run at an exercise session, but is interesting as a proof of concept - although you would need another inference engine than the free Huggingface account since it is rather slow and rate limited.
+
