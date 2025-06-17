@@ -16,4 +16,23 @@ To get the tutorial to work, first you will need an account at Huggingface and c
 
 ![](image.png)
 
+Then you need to create an Argilla account and an Argilla space (a part of Huggingface). Here it is best to use this link:
+https://docs.argilla.io/latest/getting_started/quickstart/
+
+Click on Deploy on HF spaces - this will lead you to this link: 
+
+https://huggingface.co/new-space?template=argilla/argilla-template-space&name=my-argilla
+
+This will run a setup which will take some minutes. Next you will meet a login screen. You can login with huggingface or as a separate user. I chose "Sign in with username":
+
+![](image-2.png)
+
+In the future you can find your Argilla space under your HF account:
+
+![](image-3.png)
+
+Importantly you will need a Argilla API key as well. This is retrieved under your Argilla account:
+
+![](image-4.png)
+
 It will probably not be possible to run at an exercise session, but is interesting as a proof of concept - although you would need another inference engine than the free Huggingface account. 
