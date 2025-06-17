@@ -1,4 +1,4 @@
-# Codebase for the advanced language models course. 
+# Generating a synthetic preference dataset using LLM's
 
 This is an adaptation of the tutorial from this link: 
 
@@ -34,5 +34,7 @@ In the future you can find your Argilla space under your HF account:
 Importantly you will need a Argilla API key as well. This is retrieved under your Argilla account:
 
 ![](image-4.png)
+
+
 
 It will probably not be possible to run at an exercise session, but is interesting as a proof of concept - although you would need another inference engine than the free Huggingface account. 
