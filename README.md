@@ -5,3 +5,5 @@ This is a collection of code from exercises that could potentially be useful for
 "argilla_generate_a_preference_dataset" is a tutorial about using LLM's to synthetically generate a preference dataset. It will probably not be possible to run at an exercise session, but is interesting as a proof of concept - although you would need another inference engine than the free Huggingface account. 
 
 "unsloth_fine_tuning_llama_3" is a tutorial about fine-tuning a Llama 3 model with Unsloth, which is the fastest and most memory efficient training library for a single GPU. This is not really feasible without a GPU - and it might be a bit "high-level". Maybe its better to start with a pytorch exercise to gain a more in depth understanding. But it is certainly useful for a project.  
+
+"DPO_implementation_EPFL" contains some scripts with my implementation for DPO and MCQA evaluation as a part of a project I made at EPFL. Here the sections about DPO reward implementation is most relevant. I uploaded it as a possible inspiration for future exercises (and to show that it is feasible)
