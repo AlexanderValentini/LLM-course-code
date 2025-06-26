@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch
+torchvision
+torchaudio
+transformers
+datasets
+bitsandbytes
+python-dotenv
+gptqmodel 
+mergekit
+distilabel[argilla, hf-inference-endpoints]

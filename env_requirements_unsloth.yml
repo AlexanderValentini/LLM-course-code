@@ -1,0 +1,29 @@
+# To create the environment: conda env create -f environment.yml
+# To update an environment: conda env update --file environment.yml --prune
+
+name: unsloth-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # --- Core libraries managed by Conda ---
+  # Conda is excellent for handling complex binary dependencies like CUDA.
+  - python=3.12        # It's good practice to specify your Python version
+  - scikit-learn
+  - matplotlib
+  - ipykernel
+  - jupyter
+  - protobuf
+  - sentencepiece
+  - tiktoken
+  - ipywidgets
+  - accelerate
+  - unidecode
+  # --- Packages to be installed by pip ---
+  # For libraries that are updated frequently or are not on Conda,
+  # we can tell conda to use pip.
+  - pip
+  - pip:
+
+    - -r requirements_unsloth.txt  # This will install packages listed in requirements.txt

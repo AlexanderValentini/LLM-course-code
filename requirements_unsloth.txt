@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch>= 2.7
+transformers
+datasets
+unsloth[windows] @ git+https://github.com/unslothai/unsloth.git
+triton-windows<3.4

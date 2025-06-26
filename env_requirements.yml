@@ -1,0 +1,36 @@
+# To create the environment: conda env create -f environment.yml
+# To update an environment: conda env update --file environment.yml --prune
+
+name: llmops-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # --- Core libraries managed by Conda ---
+  # Conda is excellent for handling complex binary dependencies like CUDA.
+  - python=3.12        # It's good practice to specify your Python version
+  - scikit-learn
+  - spacy
+  - matplotlib
+  - networkx
+  - ipykernel
+  - jupyter
+  - graphviz
+  - pygraphviz 
+  - protobuf
+  - sentencepiece
+  - tiktoken
+  - ipywidgets
+  - accelerate
+  - peft
+  - trl
+  - wandb
+  - unidecode
+  # --- Packages to be installed by pip ---
+  # For libraries that are updated frequently or are not on Conda,
+  # we can tell conda to use pip.
+  - pip
+  - pip:
+
+    - -r requirements.txt  # This will install packages listed in requirements.txt
