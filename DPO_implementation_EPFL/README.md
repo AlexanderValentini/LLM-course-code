@@ -8,4 +8,4 @@ evaluator.py is running the main evaluation of the model. Either it evaluates ac
 
 For a reference implementation of DPO evaluation, see the model_dpo.py script. Look under the "AutoDPOModelForCausalLM" class and specifically at the get_logprobs and prediction_step_reward functions. These compute the rewards of the rejected and chosen samples (comparing the ground truth and model generations). 
 
-Note that this might take too much time for one exercise and does not represent the whole training process, but it should mostly be seen as an inspiration.
+Note that this might take too much time for one exercise and does not represent the whole training process, but it should mostly be seen as an inspiration for a potential exercise about DPO (namely to implement the formulas from the paper).
